@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.contenedor {
+
+    border: 1px solid #CCC;
+    width: 800px;
+    position: relative;
+}
+
+
+.cajas {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.rosa {
+    background-color: #EE3E64;
+}
+   
+.azul{
+    background-color: #44ACCF;
+    margin-left: 200px;
+}
+
+
+.verde{
+    background-color: #B7D84B;
+
+}
+
+
+.clearfix:before, .clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+

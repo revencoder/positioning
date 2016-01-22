@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.contenedor {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+
+
+.rosa {
+    background-color: #EE3E64;
+    left:0;
+    top:0;
+
+
+}
+   
+.azul{
+    background-color: #44ACCF;
+    right:0;
+    top:0;
+
+}
+
+
+.verde{
+    background-color: #B7D84B;
+    left:0;
+    bottom:0;
+
+}
+
+.amarillo{
+    background-color: yellow;
+    right:0;
+    bottom:0;
+
+}
+
+
+.clearfix:before, .clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.contenedor {
+    width: 200px;
+    height: 200px;
+    position: relative;
+   
+}
+
+
+
+.rosa {
+    background-color: #EE3E64;
+    
+
+}
+   
+.azul{
+    background-color: #44ACCF;
+    position: absolute;
+    left:200px;
+     
+
+}
+
+
+.verde{
+    background-color: #B7D84B;
+    
+   
+
+}
+
+.amarillo{
+    background-color: yellow;
+   
+
+}
+
+
+.clearfix:before, .clearfix:after{
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+
